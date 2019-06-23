@@ -4,5 +4,5 @@ def reformat_languages(languages)
   hash = {}
   languages.each do |style,lang|
     language.each do |name, att|
-      hash.
+      hash[name]
 end
