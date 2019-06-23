@@ -1,6 +1,6 @@
 def reformat_languages(languages)
-  hash = {}
-  hash.each do |style, language|
+  new_languages = {}
+  languages.each do |style, language|
     language.each do |name, attributes|
     new_languages[name] = attributes
     new_languages[name][:style]=[]
