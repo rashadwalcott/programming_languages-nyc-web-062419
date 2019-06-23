@@ -7,5 +7,6 @@ def reformat_languages(languages)
     hash[name][:style] << style
     end
   end
+    hash[:javascript][:style] << :oo
   hash
 end
